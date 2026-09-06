@@ -58,3 +58,10 @@ INSERT INTO categoria (nombre) VALUES
 ('Perifericos'),
 ('Componentes'),
 ('Accesorios');
+
+USE tecnstock;
+
+INSERT INTO usuario
+(nombre_usuario, contrasena, nombre_completo, activo, id_rol)
+VALUES
+('admin', 'admin123', 'Administrador General', TRUE, 1);
